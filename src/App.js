@@ -1,13 +1,13 @@
-
 import './App.css';
-import Login from './Components/Login/Login.jsx';
-
-
-function App() {
+import './index.css';
+import Navbar from "./Components/Navigation";
+import Login from "./Components/Login";
+import Signup from "./Components/Registration";
+function App()  {
   return (
-    <div>
-        <Login/>
-    </div>
+    <>
+        <Signup/>
+    </>
   );
 }
 
